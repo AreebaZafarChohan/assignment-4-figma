@@ -11,6 +11,15 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customPink: "var(--customPink)",
+        customBlue: "var(--customBlue)",
+      },
+      fontFamily: {
+        heebo: ["heebo", "serif", "sans-serif"],
+        inter: ["inter", "sans-serif"]
+      },
+      boxShadow: {
+        "customShadow": "0 4px 4px 0 #4141418a",
       },
     },
   },
