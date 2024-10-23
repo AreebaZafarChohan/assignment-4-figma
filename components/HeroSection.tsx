@@ -9,7 +9,7 @@ const HeroSection = () => {
         <p className="font-heebo font-normal text-[16px]">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
         </p>
-        <button className="bg-customPink p-2 w-52 h-12 text-white font-heebo font-[500px] text-lg rounded-sm hover:bg-customBlue transition-colors duration-300 ease-linear" style={{boxShadow: "0 4px 4px 0 #4141418a"}}>Download Resume</button>
+        <button className="bg-customPink p-2 w-52 h-12 text-white font-heebo font-[500px] text-lg rounded-sm hover:bg-customBlue transition-colors duration-300 ease-linear" style={{boxShadow: "0 4px 4px 0 #4141418"}}>Download Resume</button>
       </div>
       <div className="relative flex justify-center items-center">
         <div className="absolute bg-[#AA9F9F4F] lg:size-[300px] md:size-[300px] sm:size-[300px] size-[200px] -z-10 rounded-full -left-3 -bottom-2 "/>
