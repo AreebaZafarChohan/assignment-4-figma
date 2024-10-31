@@ -1,39 +1,18 @@
-import Image from "next/image";
+import React from 'react'
+import { FaFacebookSquare, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
-  return (
-    <footer className="mt-16 lg:mt-52 md:mt-52 mb-10">
-      <div className="flex  justify-center gap-9">
-        <Image 
-        src="./images/fb.svg"
-        alt="Facebook Logo"
-        width={30}
-        height={30}
-        />
-        <Image 
-        src="./images/insta.svg"
-        alt="Instagram Logo"
-        width={30}
-        height={30}
-        />
-        <Image 
-        src="./images/twitter.svg"
-        alt="Twitter Logo"
-        width={30}
-        height={30}
-        />
-        <Image 
-        src="./images/Linkedin.svg"
-        alt="LinkedIn Logo"
-        width={30}
-        height={30}
-        />
-      </div>
-      <p className="text-center font-heebo py-10 text-lg font-semibold">
-      Copyright &copy;2020 All rights reserved 
-      </p>
-    </footer>
-  );
-};
+    return (
+        <footer className='w-full h-[243px] pt-20'>
+            <div className='w-[280px] flex mx-auto justify-center gap-9'>
+                <FaFacebookSquare size={30} className=' text-customBlue' />
+                <FaInstagram size={30} className=' text-customBlue' />
+                <FaTwitter size={30} className=' text-customBlue' />
+                <FaLinkedin size={30} className=' text-customBlue' />
+            </div>
+            <h4 className='font-heebo text-lg md:text-[22px] text-center font-semibold py-5'>Copyright &copy;2020 All rights reserved </h4>
+        </footer>
+    )
+}
 
-export default Footer;
+export default Footer

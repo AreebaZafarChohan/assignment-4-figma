@@ -1,15 +1,15 @@
-import NavbarLi from './NavbarLi';
+import Link from 'next/link'
+import React from 'react'
+import NavbarLi from './NavbarLi'
 
-const Navbar = () => {
+const Navigation = () => {
   return (
-    <nav className='text-black'>
-   <ul className='flex justify-center md:justify-end lg:justify-end gap-6 p-8 font-inter my-4 mx-4'>
-    <NavbarLi name='Works' href='/'/>
-    <NavbarLi name='Blog' href='/'/>
-    <NavbarLi name='Contact' href='/'/>
-    </ul>     
-    </nav>
-  );
-};
+    <div className='flex justify-center md:justify-end p-8 gap-6 font-inter'>
+        <NavbarLi href="/" name="Works"/>
+        <NavbarLi href="/" name="Blog"/>
+        <NavbarLi href="/" name="Content"/>
+    </div>
+  )
+}
 
-export default Navbar;
+export default Navigation

@@ -2,12 +2,14 @@ import FeaturedWorksBox from './FeaturedWorksBox';
 
 const FeaturedWorks = () => {
   return (
-    <div className='mx-6 sm:mx-20 md:mx-20 lg:mx-40 my-20 w-full'>
-        <h2 className='font-heebo font-semibold lg:text-xl text-xl pb-8'>Featured Works</h2>
-      <FeaturedWorksBox href="./images/img1.svg"/>
-      <FeaturedWorksBox href="./images/img2.svg"/>
-      <FeaturedWorksBox href="./images/img3.svg"/>
-    </div>
+    <div className='my-20 w-full px-4 md:px-60'>
+    <h6 className='font-heebo font-semibold text-lg md:text-[22px]'>Featured Works</h6>
+    <div className='flex flex-col gap-20 my-5'>
+      <FeaturedWorksBox href={"1"} />
+      <FeaturedWorksBox href={"2"} />
+      <FeaturedWorksBox href={"3"} />
+          </div>
+  </div>
   );
 };
 

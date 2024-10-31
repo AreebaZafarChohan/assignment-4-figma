@@ -6,7 +6,7 @@ import RecentPosts from "@/components/RecentPosts";
 
 export default function Home() {
   return (
-   <div className="w-full overflow-hidden">
+   <div>
     <Navbar />
     <HeroSection />
     <RecentPosts />
