@@ -2,14 +2,18 @@ import FeaturedWorksBox from './FeaturedWorksBox';
 
 const FeaturedWorks = () => {
   return (
-    <div className='my-20 w-full px-4 md:px-60'>
-    <h6 className='font-heebo font-semibold text-lg md:text-[22px]'>Featured Works</h6>
-    <div className='flex flex-col gap-20 my-5'>
-      <FeaturedWorksBox href={"1"} />
-      <FeaturedWorksBox href={"2"} />
-      <FeaturedWorksBox href={"3"} />
-          </div>
-  </div>
+    <div className='absolute w-[919px] h-[934.2px] top-[1246px] left-[237px]'>
+        <h2 className='leading-[32.31px] font-heebo font-[500] lg:text-[22px] text-black pb-8'>Featured Works</h2>
+      <div className='mb-10'>
+      <FeaturedWorksBox href="./images/img1.svg" property={1310}/>
+      </div>
+      <div className='mb-10'>
+      <FeaturedWorksBox href="./images/img2.svg" property={1601}/>
+      </div>
+      <div className='mb-10'>
+      <FeaturedWorksBox href="./images/img3.svg" property={1892}/>
+      </div>
+    </div>
   );
 };
 

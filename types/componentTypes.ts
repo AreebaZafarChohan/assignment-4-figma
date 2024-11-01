@@ -5,4 +5,5 @@ export interface NavbarLiProps {
 
 export interface FeaturedWorksProps {
     href: string;
+    property: number
 }

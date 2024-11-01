@@ -6,7 +6,7 @@ import RecentPosts from "@/components/RecentPosts";
 
 export default function Home() {
   return (
-   <div>
+   <div className="w-[1440px] h-[2453px]">
     <Navbar />
     <HeroSection />
     <RecentPosts />

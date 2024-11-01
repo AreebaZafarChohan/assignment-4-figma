@@ -2,18 +2,25 @@ import Image from 'next/image'
 
 const HeroSection = () => {
   return (
-    <div className='flex flex-col-reverse md:flex-row items-center justify-center gap-12 my-10 md:my-40 mx-auto w-full md:w-[1030px]'>
-
-      <div className='flex flex-col justify-start gap-y-5 md:w-1/2 p-5 md:p-0'>
-        <h1 className='font-heebo font-extrabold text-4xl md:text-5xl text-customBlue'>Hi, I am John, <br /> Creative Technologist</h1>
-        <p className='font-heebo font-normal text-[16px] text-customBlue'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-        <button className='w-52 h-12 bg-customPink text-white font-heebo font-[500px]  text-lg rounded-sm hover:bg-customBlue transition-colors duration-300 ease-linear' style={{boxShadow: "0 4px 4px 0 #4141418"}}>Download Resume</button>
+    <section className="absolute w-[1440px] h-[800px]  left-[-2.5px]">
+      <div className="absolute w-[521px] h-[305px] top-[249px] left-[231px]">
+        <h1 className="font-heebo font-[900] text-[48px] md:text-[48px] leading-[61px] text-customBlue pb-6">Hi, I am John, <br />
+        Creative Technologist</h1>
+        <p className="font-heebo font-normal text-[16px] leading-[23.5px] pb-5">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+        <button className="bg-customPink absolute w-[205px] h-[50px] text-white font-heebo font-[500px] text-lg rounded-sm hover:bg-customBlue transition-colors duration-300 ease-linear" style={{boxShadow: "0 4px 4px 0 #4141418a"}}>Download Resume</button>
       </div>
-
-      <div>
-        <Image src={"/images/image.svg"} alt={"Hero image"} height={300} width={300} className='rounded-full size-[200px] md:size-[300px]' />
+      <div className="absolute w-[298px] h-[308px] top-[246px] left-[963px]">
+        <Image 
+        src="./images/image.svg"
+        alt="Hero Section Image"
+        width={298}
+        height={308}
+        className=""
+        />
       </div>
-    </div>
+    </section>
   );
 };
 

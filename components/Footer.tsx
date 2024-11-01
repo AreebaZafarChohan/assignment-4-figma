@@ -1,16 +1,42 @@
 import React from 'react'
-import { FaFacebookSquare, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import Image from 'next/image'
 
 const Footer = () => {
     return (
-        <footer className='w-full h-[243px] pt-20'>
-            <div className='w-[280px] flex mx-auto justify-center gap-9'>
-                <FaFacebookSquare size={30} className=' text-customBlue' />
-                <FaInstagram size={30} className=' text-customBlue' />
-                <FaTwitter size={30} className=' text-customBlue' />
-                <FaLinkedin size={30} className=' text-customBlue' />
-            </div>
-            <h4 className='font-heebo text-lg md:text-[22px] text-center font-semibold py-5'>Copyright &copy;2020 All rights reserved </h4>
+        <footer className='my-20'>
+            <div className="relative w-[1440px] h-[234px] top-[2239px]">
+          <Image 
+          src="./images/fb.svg"
+          alt="Facebook Logo"
+          width={30}
+          height={30}
+          className='absolute left-[578px]'
+          />
+          <Image 
+          src="./images/insta.svg"
+          alt="Instagram Logo"
+          width={30}
+          height={30}
+          className='absolute left-[659px]'
+          />
+          <Image 
+          src="./images/twitter.svg"
+          alt="Twitter Logo"
+          width={30}
+          height={30}
+          className='absolute left-[740px]'
+          />
+          <Image 
+          src="./images/Linkedin.svg"
+          alt="LinkedIn Logo"
+          width={30}
+          height={30}
+          className='absolute left-[827px]'
+          />
+        <p className="absolutefont-heebo font-[500] text-[22px] leading-[32.31px] text-center pt-16 text-black">
+        Copyright &copy;2020 All rights reserved 
+        </p>
+      </div>
         </footer>
     )
 }
