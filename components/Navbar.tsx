@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="w-[1440px] h-[67px] top-[-2px] ">
+    <nav className="relative w-[1440px] h-[67px] right-10 ">
       <ul className="absolute w-[283px] h-[24px] top-[66px]">
         <Link
           href="/"

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const FeaturedWorksBox:React.FC<FeaturedWorksProps> = ({href, property}) => {
   return (
-    <div className="flex ">
+    <div className="flex">
       <div className={`relative top-${property}px`} >
 <Image 
 src={href}

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const HeroSection = () => {
   return (
-    <section className="absolute w-[1440px] h-[800px]  left-[-2.5px]">
+    <section className="relative w-[1440px] h-[800px]  left-[-2.5px]">
       <div className="absolute w-[521px] h-[305px] top-[249px] left-[231px]">
         <h1 className="font-heebo font-[900] text-[48px] md:text-[48px] leading-[61px] text-customBlue pb-6">Hi, I am John, <br />
         Creative Technologist</h1>

@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const Footer = () => {
     return (
-        <footer className='my-20'>
-            <div className="relative w-[1440px] h-[234px] top-[2239px]">
+        <footer className=''>
+            <div className="relative w-[1440px] h-[234px] top-[550px]">
           <Image 
           src="./images/fb.svg"
           alt="Facebook Logo"
